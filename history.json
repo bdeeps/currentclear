@@ -1,0 +1,725 @@
+{
+  "title": "The history of electric current and voltage",
+  "tagline": "From amber that pulls on feathers to the ampere defined by counting electrons: how people learned what flows in a wire and what pushes it.",
+  "intro": "For two thousand years electricity was a curiosity of sparks and rubbed amber. Then Volta's pile made charge flow steadily, Ampère measured the flow, and the war of the currents brought AC into homes. Only in 1897 did anyone find the electrons that actually move, and today a lithium cell in your pocket and 230 V in your walls are taken for granted.",
+  "eras": [
+    {
+      "id": "spark",
+      "name": "Sparks and static",
+      "from": -600,
+      "to": 1760,
+      "color": "#c49bff",
+      "summary": "Rubbed amber, conductors and insulators, the Leyden jar, and Franklin's plus and minus."
+    },
+    {
+      "id": "current",
+      "name": "Charge on the move",
+      "from": 1790,
+      "to": 1835,
+      "color": "#ffb547",
+      "summary": "Galvani's frog, Volta's pile, and Ørsted, Ampère, Ohm and Faraday turning current into a science."
+    },
+    {
+      "id": "power",
+      "name": "Power for everyone",
+      "from": 1875,
+      "to": 1900,
+      "color": "#8ef0ff",
+      "summary": "Light bulbs, the first power stations, the war of AC against DC, and electricity arriving in India."
+    },
+    {
+      "id": "today",
+      "name": "Electrons and batteries",
+      "from": 1897,
+      "to": 2026,
+      "color": "#5ce1a9",
+      "summary": "The electron is found, lithium-ion batteries power phones and cars, and every Indian village is connected."
+    }
+  ],
+  "events": [
+    {
+      "year": -600,
+      "date": "c. 600 BCE",
+      "era": "spark",
+      "art": "word",
+      "key": true,
+      "title": "Amber that pulls feathers",
+      "who": "Thales of Miletus (attributed)",
+      "where": "Miletus, Ionia",
+      "country": "Turkey",
+      "text": "Rub a piece of amber with fur and it pulls on bits of straw and feathers. Later Greek writers credit Thales with noticing this, though none of his own writings survive. The Greek word for amber, elektron, gave us 'electricity'.",
+      "why": "The first recorded brush with electric charge, and the root of the word.",
+      "box": "idea",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1600,
+      "date": "1600",
+      "era": "spark",
+      "art": "magnet",
+      "key": true,
+      "title": "Gilbert names it 'electricus'",
+      "who": "William Gilbert",
+      "where": "London",
+      "country": "England",
+      "text": "In De Magnete, the English doctor William Gilbert showed that glass, sulphur and many gems attract things just as amber does. He called them 'electrica', from the Latin electricus, 'like amber', and built a pivoting needle to detect the pull.",
+      "why": "Electricity became a subject of its own, separate from magnetism.",
+      "box": "idea",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "year": 1729,
+      "date": "1729",
+      "era": "spark",
+      "art": "string",
+      "key": false,
+      "title": "Charge can travel",
+      "who": "Stephen Gray",
+      "where": "Canterbury and Otterden",
+      "country": "England",
+      "text": "Stephen Gray sent the 'electric virtue' from a rubbed glass tube along hundreds of feet of thread hung on silk. Metal wire and damp thread carried it; silk did not. He had found conductors and insulators.",
+      "why": "Electricity could move from place to place: the first hint of a current.",
+      "box": "circuits",
+      "sources": [
+        3,
+        1
+      ]
+    },
+    {
+      "year": 1745,
+      "date": "1745–1746",
+      "era": "spark",
+      "art": "flask",
+      "key": false,
+      "title": "The Leyden jar stores charge",
+      "who": "Ewald Georg von Kleist; Pieter van Musschenbroek",
+      "where": "Pomerania; Leiden",
+      "country": "Netherlands",
+      "text": "Two experimenters, working separately, found that a water-filled glass jar could store a large charge and release it in one painful spark. The Leyden jar became the battery of 18th-century science.",
+      "why": "For the first time, charge could be collected and let go on demand.",
+      "box": "",
+      "sources": [
+        4,
+        1
+      ]
+    },
+    {
+      "year": 1747,
+      "date": "1747",
+      "era": "spark",
+      "art": "scroll",
+      "key": true,
+      "title": "Plus and minus",
+      "who": "Benjamin Franklin",
+      "where": "Philadelphia",
+      "country": "United States",
+      "text": "Franklin argued that electricity is a single 'fluid'. A body with too much was 'positive' (plus), one with too little 'negative' (minus). The choice of which was which was a guess, and it is why conventional current flows from + to − while electrons go the other way.",
+      "why": "The signs on every battery, and the 'backwards' arrows on circuit diagrams, come from here.",
+      "box": "idea",
+      "sources": [
+        5,
+        1
+      ]
+    },
+    {
+      "year": 1752,
+      "date": "June 1752",
+      "era": "spark",
+      "art": "bolt",
+      "key": true,
+      "title": "The kite in the storm",
+      "who": "Benjamin Franklin",
+      "where": "Philadelphia",
+      "country": "United States",
+      "text": "Franklin is said to have flown a kite in a thunderstorm and drawn sparks from a key on its wet string, showing that lightning is electricity. The details come from later accounts, and he was lucky: others were killed repeating such experiments.",
+      "why": "Lightning was proved to be electric, and Franklin's lightning rod soon protected buildings.",
+      "box": "limits",
+      "sources": [
+        6,
+        5
+      ]
+    },
+    {
+      "year": 1791,
+      "date": "1791",
+      "era": "current",
+      "art": "muscle",
+      "key": false,
+      "title": "Animal electricity",
+      "who": "Luigi Galvani",
+      "where": "Bologna",
+      "country": "Italy",
+      "text": "Galvani found that a dissected frog's leg twitched when touched with two different metals. He believed the electricity came from the animal itself, which he called 'animal electricity'. We now know nerves really do signal with electricity.",
+      "why": "The argument over the frog's leg led straight to the battery.",
+      "box": "batteries",
+      "sources": [
+        7,
+        1
+      ]
+    },
+    {
+      "year": 1800,
+      "date": "20 March 1800",
+      "era": "current",
+      "art": "battery",
+      "key": true,
+      "title": "The Volta pile: the first battery",
+      "who": "Alessandro Volta",
+      "where": "Como and Pavia",
+      "country": "Italy",
+      "text": "Volta stacked discs of zinc and copper separated by cloth soaked in brine, and got a steady flow of electricity for the first time. He described his 'pile' in a letter to the Royal Society in London. The unit of voltage, the volt, is named after him.",
+      "why": "The first steady current: electricity could now flow, not just spark.",
+      "box": "batteries",
+      "sources": [
+        8,
+        9
+      ]
+    },
+    {
+      "year": 1820,
+      "date": "April–September 1820",
+      "era": "current",
+      "art": "compass",
+      "key": false,
+      "title": "A current moves a compass",
+      "who": "Hans Christian Ørsted",
+      "where": "Copenhagen",
+      "country": "Denmark",
+      "text": "During a lecture, Ørsted saw a compass needle swing when a current from a battery flowed in a nearby wire. Electricity and magnetism were linked (see MagnetismClear).",
+      "why": "The discovery behind every electric motor and meter needle.",
+      "box": "",
+      "sources": [
+        10,
+        1
+      ]
+    },
+    {
+      "year": 1820,
+      "date": "September 1820 – 1827",
+      "era": "current",
+      "art": "coil",
+      "key": true,
+      "title": "Ampère measures current",
+      "who": "André-Marie Ampère",
+      "where": "Paris",
+      "country": "France",
+      "text": "Within weeks of hearing of Ørsted's result, Ampère showed that two parallel wires carrying current attract or repel each other. He called the flow an electric 'current', worked out the law of the force between currents, and studied it until 1827. The unit of current, the ampere, honours him.",
+      "why": "Current became something you could measure by its force.",
+      "box": "idea",
+      "sources": [
+        11,
+        1
+      ]
+    },
+    {
+      "year": 1827,
+      "date": "1827",
+      "era": "current",
+      "art": "resistor",
+      "key": false,
+      "title": "Ohm's law",
+      "who": "Georg Simon Ohm",
+      "where": "Berlin",
+      "country": "Germany",
+      "text": "Ohm published the rule linking the push, the flow and the resistance of a wire: current = voltage ÷ resistance. OhmsLawClear tells the full story.",
+      "why": "It tied current and voltage together with one simple rule.",
+      "box": "idea",
+      "sources": [
+        12
+      ]
+    },
+    {
+      "year": 1831,
+      "date": "29 August 1831",
+      "era": "current",
+      "art": "magnet",
+      "key": false,
+      "title": "Moving magnets make current",
+      "who": "Michael Faraday",
+      "where": "London",
+      "country": "England",
+      "text": "Faraday found that a changing magnetic field drives a current in a coil: electromagnetic induction. Every generator and transformer since depends on it (see FaradayClear).",
+      "why": "It made electricity something power stations could produce in bulk.",
+      "box": "home",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "year": 1879,
+      "date": "24 July 1879",
+      "era": "power",
+      "art": "building",
+      "key": true,
+      "title": "Electric light in Calcutta",
+      "who": "P. W. Fleury & Co.",
+      "where": "Calcutta (Kolkata)",
+      "country": "India",
+      "text": "The first public demonstration of electric light in India took place in Calcutta. Twenty years later, in 1899, the Calcutta Electric Supply Corporation opened the city's first power station.",
+      "why": "Electric light reached India within months of Edison's lamp.",
+      "box": "home",
+      "sources": [
+        14
+      ]
+    },
+    {
+      "year": 1879,
+      "date": "October 1879",
+      "era": "power",
+      "art": "plug",
+      "key": false,
+      "title": "A lamp that lasts",
+      "who": "Thomas Edison; Joseph Swan",
+      "where": "Menlo Park; Newcastle",
+      "country": "United States",
+      "text": "Edison's team and Joseph Swan in England each made practical carbon-filament light bulbs. A good lamp gave people a reason to want electricity in every home.",
+      "why": "The light bulb created the demand for electricity supply.",
+      "box": "circuits",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 1881,
+      "date": "September 1881",
+      "era": "power",
+      "art": "word",
+      "key": false,
+      "title": "Volt, ampere and ohm become units",
+      "who": "International Electrical Congress",
+      "where": "Paris",
+      "country": "France",
+      "text": "Delegates from many countries agreed on practical electrical units, naming them after scientists: the volt, the ampere, the ohm, the coulomb and the farad.",
+      "why": "Engineers everywhere could now measure current and voltage the same way.",
+      "box": "idea",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "year": 1882,
+      "date": "4 September 1882",
+      "era": "power",
+      "art": "engine",
+      "key": false,
+      "title": "The first central power station",
+      "who": "Thomas Edison",
+      "where": "New York",
+      "country": "United States",
+      "text": "Edison's Pearl Street Station began supplying direct current (DC) to customers in lower Manhattan. DC could not easily be changed in voltage, so it only reached about a mile from the station.",
+      "why": "The start of electricity supplied from a central station.",
+      "box": "home",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 1888,
+      "date": "1886–1893",
+      "era": "power",
+      "art": "sinewave",
+      "key": true,
+      "title": "The war of the currents",
+      "who": "Thomas Edison vs George Westinghouse and Nikola Tesla",
+      "where": "United States",
+      "country": "United States",
+      "text": "Westinghouse backed alternating current (AC), using transformers to send high voltages far and step them down for homes, and bought Nikola Tesla's AC motor patents in 1888. Edison campaigned that AC was deadly. AC lit the 1893 Chicago World's Fair and in 1895–96 carried power from Niagara Falls to Buffalo.",
+      "why": "It is why the socket in your wall gives AC.",
+      "box": "home",
+      "sources": [
+        17,
+        18,
+        28
+      ]
+    },
+    {
+      "year": 1897,
+      "date": "30 April 1897",
+      "era": "today",
+      "art": "atomspin",
+      "key": true,
+      "title": "The electron is found",
+      "who": "J. J. Thomson",
+      "where": "Cambridge",
+      "country": "England",
+      "text": "Thomson showed that cathode rays are streams of tiny negatively charged particles, far lighter than atoms. They were soon called electrons: the charges that actually move in a wire.",
+      "why": "A century after Franklin, the thing that flows in a current was finally identified.",
+      "box": "idea",
+      "sources": [
+        19
+      ]
+    },
+    {
+      "year": 1897,
+      "date": "10 November 1897",
+      "era": "power",
+      "art": "mountain",
+      "key": true,
+      "title": "India's first hydroelectric station",
+      "who": "Darjeeling Municipality",
+      "where": "Sidrapong, Darjeeling",
+      "country": "India",
+      "text": "The Sidrapong hydel station, with two 65 kW generators driven by mountain streams, began supplying Darjeeling. It is the oldest hydroelectric station in India and is still preserved.",
+      "why": "One of the first public electricity supplies in Asia.",
+      "box": "home",
+      "sources": [
+        20,
+        21
+      ]
+    },
+    {
+      "year": 1985,
+      "date": "1985",
+      "era": "today",
+      "art": "battery",
+      "key": false,
+      "title": "The lithium-ion battery takes shape",
+      "who": "Akira Yoshino, building on M. Stanley Whittingham and John B. Goodenough",
+      "where": "Kawasaki",
+      "country": "Japan",
+      "text": "Whittingham made the first lithium battery in the 1970s and Goodenough found a better cathode in 1980. Yoshino replaced the dangerous lithium metal with carbon, making a safe rechargeable cell; Sony sold the first ones in 1991.",
+      "why": "The battery in every phone and electric car.",
+      "box": "batteries",
+      "sources": [
+        22,
+        23
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "28 April 2018",
+      "era": "today",
+      "art": "plug",
+      "key": true,
+      "title": "Every village electrified",
+      "who": "Government of India (DDUGJY)",
+      "where": "Leisang, Manipur",
+      "country": "India",
+      "text": "The government declared every inhabited village in India electrified when Leisang in Manipur was connected. A village counted as electrified once its public places and at least 10% of its homes had power; connecting every household took longer.",
+      "why": "A milestone 139 years after Calcutta's first electric light.",
+      "box": "home",
+      "sources": [
+        26,
+        27
+      ]
+    },
+    {
+      "year": 2019,
+      "date": "20 May 2019",
+      "era": "today",
+      "art": "scales",
+      "key": false,
+      "title": "The ampere is fixed by the electron",
+      "who": "General Conference on Weights and Measures",
+      "where": "Sèvres",
+      "country": "France",
+      "text": "The SI units were redefined. The ampere is now set by fixing the charge of one electron at exactly 1.602176634 × 10⁻¹⁹ coulombs, so one amp is about 6.24 × 10¹⁸ electrons a second.",
+      "why": "Current is now defined by counting electrons, just as chapter 1 does.",
+      "box": "idea",
+      "sources": [
+        24,
+        25
+      ]
+    },
+    {
+      "year": 2019,
+      "date": "9 October 2019",
+      "era": "today",
+      "art": "battery",
+      "key": false,
+      "title": "A Nobel Prize for the lithium-ion battery",
+      "who": "John B. Goodenough, M. Stanley Whittingham, Akira Yoshino",
+      "where": "Stockholm",
+      "country": "Sweden",
+      "text": "The three chemists shared the Nobel Prize in Chemistry. At 97, Goodenough became the oldest Nobel laureate ever.",
+      "why": "The prize recognised the battery that made portable electronics and electric cars possible.",
+      "box": "batteries",
+      "sources": [
+        22
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Electric attraction recorded",
+      "value": "c. 600 BCE",
+      "who": "Thales of Miletus (attributed), Ionia"
+    },
+    {
+      "label": "The word 'electricus'",
+      "value": "1600",
+      "who": "William Gilbert, England"
+    },
+    {
+      "label": "Positive and negative charge named",
+      "value": "1747",
+      "who": "Benjamin Franklin, Philadelphia"
+    },
+    {
+      "label": "First battery, first steady current",
+      "value": "1800",
+      "who": "Alessandro Volta, Italy"
+    },
+    {
+      "label": "Electric light shown in India",
+      "value": "1879",
+      "who": "P. W. Fleury & Co., Calcutta"
+    },
+    {
+      "label": "India's first hydroelectric station",
+      "value": "1897",
+      "who": "Sidrapong, Darjeeling"
+    },
+    {
+      "label": "Electron discovered",
+      "value": "1897",
+      "who": "J. J. Thomson, Cambridge"
+    }
+  ],
+  "people": [
+    {
+      "name": "William Gilbert",
+      "life": "1544 – 1603",
+      "role": "Physician and natural philosopher",
+      "from": "Colchester, England",
+      "note": "Named electric attraction after amber."
+    },
+    {
+      "name": "Stephen Gray",
+      "life": "1666 – 1736",
+      "role": "Dyer and astronomer",
+      "from": "Canterbury, England",
+      "note": "Showed that charge travels along conductors."
+    },
+    {
+      "name": "Benjamin Franklin",
+      "life": "1706 – 1790",
+      "role": "Printer, scientist and statesman",
+      "from": "Boston, United States",
+      "note": "Named positive and negative charge and invented the lightning rod."
+    },
+    {
+      "name": "Luigi Galvani",
+      "life": "1737 – 1798",
+      "role": "Physician",
+      "from": "Bologna, Italy",
+      "note": "Made frogs' legs twitch with metals: 'animal electricity'."
+    },
+    {
+      "name": "Alessandro Volta",
+      "life": "1745 – 1827",
+      "role": "Physicist",
+      "from": "Como, Italy",
+      "note": "Built the first battery; the volt is named after him."
+    },
+    {
+      "name": "André-Marie Ampère",
+      "life": "1775 – 1836",
+      "role": "Physicist and mathematician",
+      "from": "Lyon, France",
+      "note": "Founded electrodynamics; the ampere is named after him."
+    },
+    {
+      "name": "Nikola Tesla",
+      "life": "1856 – 1943",
+      "role": "Inventor and engineer",
+      "from": "Smiljan (now Croatia)",
+      "note": "Designed the AC induction motor that Westinghouse used."
+    },
+    {
+      "name": "J. J. Thomson",
+      "life": "1856 – 1940",
+      "role": "Physicist",
+      "from": "Manchester, England",
+      "note": "Discovered the electron."
+    },
+    {
+      "name": "John B. Goodenough",
+      "life": "1922 – 2023",
+      "role": "Materials scientist",
+      "from": "Jena, Germany",
+      "note": "Found the cathode that made lithium-ion batteries powerful."
+    }
+  ],
+  "series": [],
+  "facts": [
+    "The word 'electricity' comes from elektron, the Greek word for amber.",
+    "Electrons in a torch wire drift at about a tenth of a millimetre per second, slower than a snail.",
+    "One ampere is about 6.24 billion billion electrons passing every second.",
+    "Conventional current flows from + to − only because Franklin guessed which charge was which in 1747.",
+    "In 2022 lightning killed about 2,900 people in India, more than any other force of nature."
+  ],
+  "sources": [
+    {
+      "title": "Thales of Miletus",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Thales-of-Miletus"
+    },
+    {
+      "title": "History of electromagnetic theory",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_electromagnetic_theory"
+    },
+    {
+      "title": "William Gilbert",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/William-Gilbert"
+    },
+    {
+      "title": "Stephen Gray (scientist)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Gray_(scientist)"
+    },
+    {
+      "title": "Leyden jar",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leyden_jar"
+    },
+    {
+      "title": "Benjamin Franklin and electricity",
+      "publisher": "The Franklin Institute",
+      "url": "https://www.fi.edu/en/science-and-education/benjamin-franklin/kite-key-experiment"
+    },
+    {
+      "title": "Kite experiment",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kite_experiment"
+    },
+    {
+      "title": "Luigi Galvani",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Luigi-Galvani"
+    },
+    {
+      "title": "Voltaic pile",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voltaic_pile"
+    },
+    {
+      "title": "Alessandro Volta",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Alessandro-Volta"
+    },
+    {
+      "title": "Hans Christian Ørsted",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted"
+    },
+    {
+      "title": "André-Marie Ampère",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Andre-Marie-Ampere"
+    },
+    {
+      "title": "Georg Ohm",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Georg_Ohm"
+    },
+    {
+      "title": "International Electrical Congress",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/International_Electrical_Congress"
+    },
+    {
+      "title": "CESC Limited",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CESC_Limited"
+    },
+    {
+      "title": "Incandescent light bulb",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Incandescent_light_bulb"
+    },
+    {
+      "title": "Pearl Street Station",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pearl_Street_Station"
+    },
+    {
+      "title": "War of the currents",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/War_of_the_currents"
+    },
+    {
+      "title": "Edison vs. Westinghouse: a shocking rivalry",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/history/edison-vs-westinghouse-a-shocking-rivalry-102146036/"
+    },
+    {
+      "title": "J. J. Thomson",
+      "publisher": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/1906/thomson/biographical/"
+    },
+    {
+      "title": "Sidrapong Hydroelectric Power Station",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sidrapong_Hydroelectric_Power_Station"
+    },
+    {
+      "title": "Milestone proposal: Sidrapong Hydel Power Station, 1897",
+      "publisher": "IEEE Milestones Wiki",
+      "url": "https://ieeemilestones.ethw.org/Milestone-Proposal:125th_anniversary_of_Sidrapong_Hydel_Power_Station"
+    },
+    {
+      "title": "The Nobel Prize in Chemistry 2019",
+      "publisher": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2019/summary/"
+    },
+    {
+      "title": "Lithium-ion battery",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+    },
+    {
+      "title": "2019 revision of the SI",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2019_revision_of_the_SI"
+    },
+    {
+      "title": "The International System of Units (SI Brochure, 9th edition)",
+      "publisher": "BIPM",
+      "url": "https://www.bipm.org/en/publications/si-brochure"
+    },
+    {
+      "title": "Deen Dayal Upadhyaya Gram Jyoti Yojana",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deen_Dayal_Upadhyaya_Gram_Jyoti_Yojana"
+    },
+    {
+      "title": "Rural electrification: Leisang, Manipur becomes last village to be electrified",
+      "publisher": "Scroll.in",
+      "url": "https://scroll.in/latest/877297/all-villages-in-india-are-now-electrified-claims-government"
+    },
+    {
+      "title": "Niagara Falls power: Adams Power Plant",
+      "publisher": "IEEE Milestones (ETHW)",
+      "url": "https://ethw.org/Milestones:Adams_Hydroelectric_Generating_Plant,_1895"
+    },
+    {
+      "title": "Controlling Electrical Hazards (OSHA 3075)",
+      "publisher": "US Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/sites/default/files/publications/3075.pdf"
+    },
+    {
+      "title": "Lightning facts",
+      "publisher": "US National Weather Service",
+      "url": "https://www.weather.gov/safety/lightning-science-overview"
+    },
+    {
+      "title": "Over 8,000 accidental deaths in 2022 due to forces of nature, 35% due to lightning: NCRB",
+      "publisher": "Down To Earth",
+      "url": "https://www.downtoearth.org.in/governance/over-8-000-accidental-deaths-in-2022-due-to-forces-of-nature-35-due-to-lightning-ncrb-93177"
+    },
+    {
+      "title": "Residual-current device",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Residual-current_device"
+    }
+  ]
+}

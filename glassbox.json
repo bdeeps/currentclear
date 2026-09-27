@@ -1,0 +1,173 @@
+{
+  "slug": "currentclear",
+  "kind": "principle",
+  "box": 27,
+  "date": "2026-09-27",
+  "title": "Electric current and voltage",
+  "question": "What are electric current and voltage?",
+  "principle": {
+    "type": "concept",
+    "name": "Electric current and voltage",
+    "formula": "I = Q ÷ t",
+    "formulaNote": "current = charge ÷ time, in amperes (1 A = 1 coulomb per second). Voltage is energy per charge, V = E ÷ Q, in volts (1 V = 1 joule per coulomb). Together they give the power: P = V × I",
+    "idea": "Current is how much electric charge flows past a point each second; voltage is how much energy each bit of charge carries, the push that drives it. A torch cell gives a push of 1.5 volts; a torch bulb lets through about 0.3 amps.",
+    "discovered": "1800 · Alessandro Volta's pile; 1820s · André-Marie Ampère",
+    "art": "bolt",
+    "appliesTo": [
+      "upsclear",
+      "fanclear",
+      "tvclear",
+      "microwaveclear",
+      "waterheaterclear",
+      "acclear",
+      "carclear"
+    ],
+    "examples": [
+      {
+        "title": "Why a geyser needs a 16 A socket",
+        "text": "A 2 kW geyser on 230 V draws I = P ÷ V ≈ 8.7 A, more than a small 6 A socket and plug are built to carry, so it gets a 16 A socket.",
+        "box": "waterheaterclear"
+      },
+      {
+        "title": "A ceiling fan's trickle",
+        "text": "A 75 W ceiling fan takes about 0.33 A from the 230 V mains; a 28 W BLDC fan only about 0.12 A.",
+        "box": "fanclear"
+      },
+      {
+        "title": "The AC's big draw",
+        "text": "A 1.5-ton split AC uses about 1.6 kW while its compressor runs: about 7 A, which is why it usually gets its own circuit and MCB.",
+        "box": "acclear"
+      },
+      {
+        "title": "Battery to mains",
+        "text": "A home inverter turns its 12 V battery's direct current into 230 V alternating current. Delivering 500 W, it pulls about 50 A from the battery through thick cables.",
+        "box": "upsclear"
+      },
+      {
+        "title": "Low volts inside the TV",
+        "text": "An LED TV takes about 0.4 A from the wall, then its power supply turns 230 V AC into the low DC voltages its chips and backlight need.",
+        "box": "tvclear"
+      },
+      {
+        "title": "Thousands of volts for the magnetron",
+        "text": "A microwave oven takes about 5 A at 230 V; a transformer and a voltage doubler raise the voltage to about 4,000 V to drive the magnetron.",
+        "box": "microwaveclear"
+      },
+      {
+        "title": "12 V and 400 V on wheels",
+        "text": "A car's 12 V lead-acid battery sends about 150 A to the starter motor. An electric car's pack puts about 96 lithium cells in series for nearly 400 V.",
+        "box": "carclear"
+      },
+      {
+        "title": "A phone battery",
+        "text": "3.7 V × 5,000 mAh = 18.5 watt-hours of chemical energy, enough to run a phone using 1 W for over 18 hours."
+      },
+      {
+        "title": "A bird on a wire",
+        "text": "Both feet sit on the same wire, only about a thousandth of a volt apart, so almost no current flows through the bird."
+      }
+    ]
+  },
+  "hook": "Current is a flow of charge, voltage is the push behind it. Build a torch and count the electrons, light fairy lights in series and in parallel, switch on a geyser and an AC in an Indian home, drain a phone and an electric car, and find out why a bird on a wire is safe but wet hands are not.",
+  "thumbText": "CURRENT & VOLTAGE",
+  "field": "physics",
+  "minutes": 12,
+  "tags": [
+    "electric current",
+    "voltage",
+    "charge",
+    "coulomb",
+    "ampere",
+    "volt",
+    "conventional current",
+    "drift speed",
+    "series and parallel",
+    "fuse",
+    "MCB",
+    "RCCB",
+    "AC and DC",
+    "230 V 50 Hz",
+    "battery",
+    "mAh",
+    "watt-hour",
+    "P = VI",
+    "electrical safety",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Flow and push",
+      "text": "Current is charge flowing past a point each second, I = Q ÷ t, in amperes. Voltage is the energy each coulomb carries, in volts. In a torch, electrons crawl at about 0.1 mm/s, but the push races round the loop near light speed, so the bulb lights at once. Diagrams show current from + to −; electrons go the other way."
+    },
+    {
+      "title": "Series and parallel",
+      "text": "Bulbs in series share the voltage and all go out if one breaks, like old fairy lights. In parallel each gets the full voltage and their currents add up, like the sockets in a house. A fuse melts when the current gets too big, such as in a short circuit."
+    },
+    {
+      "title": "Home electricity",
+      "text": "Indian mains is 230 V AC at 50 Hz; the US uses 120 V at 60 Hz. Live, neutral and earth wires run to every socket. A fan takes 0.3 A, an AC about 7 A and a geyser 8.7 A, so the geyser needs a 16 A socket. MCBs trip on overload; an RCCB trips when 30 mA leaks to earth."
+    },
+    {
+      "title": "Batteries and power",
+      "text": "A cell turns chemical energy into electrical energy: 1.5 V for an AA, 3.7 V for lithium-ion, 12 V for six lead-acid cells, nearly 400 V for an EV pack. Energy stored is volts × amp-hours, in watt-hours; power is P = V × I."
+    },
+    {
+      "title": "Safety and myths",
+      "text": "Current, not voltage alone, harms you: about 1 mA is felt, 10 mA can stop you letting go, 100 mA can kill. Wet skin lets far more through. A bird on one wire is safe. A battery stores chemical energy, not electrons, and higher voltage does not always mean more current."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Electric current",
+      "def": "The rate at which charge flows past a point, I = Q ÷ t, measured in amperes (A)."
+    },
+    {
+      "term": "Voltage",
+      "def": "The energy each coulomb of charge carries, the push that drives current, measured in volts (V = J/C)."
+    },
+    {
+      "term": "Coulomb",
+      "def": "The unit of charge: about 6.24 × 10¹⁸ electrons. One amp is one coulomb per second."
+    },
+    {
+      "term": "Conventional current",
+      "def": "Current drawn flowing from + to −. Electrons, being negative, drift from − to +."
+    },
+    {
+      "term": "Series and parallel",
+      "def": "One path shared by every part, or a separate path for each part across the supply."
+    },
+    {
+      "term": "AC and DC",
+      "def": "Alternating current reverses direction many times a second; direct current flows one way."
+    },
+    {
+      "term": "Watt-hour",
+      "def": "Energy: volts × amp-hours. 1,000 Wh is 1 kWh, one unit on an electricity bill."
+    },
+    {
+      "term": "RCCB",
+      "def": "A breaker that cuts the power when 30 mA or more leaks to earth, for example through a person."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "currentclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
